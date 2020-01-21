@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- calculator -->
+        <div class="calculator">
+            <!-- display screen -->
+            <div class="display">
+                <div class="history" id="history">0</div>
+                <div id="current">0</div>
+            </div>
+            <!-- calculator buttons -->
+            <div class="btn-group">
+                <button class="btn btn-danger" id="allCancel">AC</button>
+                <button class="btn text-primary" id="cancelEntry">CE</button>
+                <button class="btn text-primary" id="%">%</button>
+                <button class="btn text-primary" id="/">/</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn" id="7">7</button>
+                <button class="btn" id="8">8</button>
+                <button class="btn" id="9">9</button>
+                <button class="btn text-primary" id="*">*</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn" id="4">4</button>
+                <button class="btn" id="5">5</button>
+                <button class="btn" id="6">6</button>
+                <button class="btn text-primary" id="-">-</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn" id="1">1</button>
+                <button class="btn" id="2">2</button>
+                <button class="btn" id="3">3</button>
+                <button class="btn text-primary" id="+">+</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-zero" id="0">0</button>
+                <button class="btn" id=".">.</button>
+                <button class="btn btn-primary" id="total">=</button>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer text-center">
+            <p>A Simple Javascript Calculator<br>Designed and Coded by Sergei Demianenko<br>2020</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

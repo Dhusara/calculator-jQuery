@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#f76809, #8b049c);
+    font-family: 'Open Sans', sans-serif;
+    animation: gradient 20s ease infinite;
+}
+
+.calculator {
+	width: 319px;
+	border: 1px solid rgb(88, 88, 88);
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(101, 5, 121);
+}
+
+.display {
+	width: 318px;
+	height: 150px;
+	padding: 25px;
+	font-size: 50px;
+	text-align: right;
+	background-color: white;
+}
+
+.history {
+	font-size: 20px;
+}
+
+.btn {
+	width: 80px;
+	height: 80px;
+	border-radius: 0;
+    font-size: 20px;
+    color: bisque;
+}
+
+.btn-zero {
+	width: 159px;
+}
+
+.footer {
+    position: relative;
+	padding: 6%;
+    font-size: 16px;
+    font-weight: bold;
+	color: bisque;
+}
